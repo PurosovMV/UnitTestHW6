@@ -6,8 +6,8 @@ import java.util.ArrayList;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 class AverageTest {
-    @Test
-    void mathAverage() {
+    @Test //Тестирование метода нахождения среднего значения в списке
+    void Average() {
         ArrayList<Integer> arr = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
             arr.add(10);

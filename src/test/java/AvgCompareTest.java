@@ -6,7 +6,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 class AvgCompareTest {
 
-    @Test
+    @Test //Тестирование метода сравнения метода сравнения списков с ожидаемым возвращаемым значением 3
     void AvgCompareReturn1() {
         ArrayList<Integer> arr1 = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
@@ -27,7 +27,7 @@ class AvgCompareTest {
         assertThat(AvgCompare.avgCompare(arr1, arr2)).isEqualTo(3);
     }
 
-    @Test
+    @Test //Тестирование метода сравнения метода сравнения списков с ожидаемым возвращаемым значением 2
     void AvgCompareReturn2() {
         ArrayList<Integer> arr1 = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
@@ -48,7 +48,7 @@ class AvgCompareTest {
         assertThat(AvgCompare.avgCompare(arr1, arr2)).isEqualTo(2);
     }
 
-    @Test
+    @Test //Тестирование метода сравнения метода сравнения списков с ожидаемым возвращаемым значением 1
     void AvgCompareReturn3() {
         ArrayList<Integer> arr1 = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
